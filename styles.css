@@ -1,0 +1,87 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/images/ab.png);
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-right: 8%;
+}
+
+.logo {
+  color: black;
+  position: absolute;
+  top: 54px;
+  left: 257px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.btn {
+  color: black;
+  background-color: #76dcc2;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+ul {
+  padding-left: 1300px;
+}
+
+div .second {
+  height: 937px;
+}
+.second-block {
+  display: flex;
+  justify-content: center;
+  padding-top: 44.5px;
+}
+
+.third {
+  height: 422px;
+  background-color: #e6eded;
+}
+/* .third-img {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 150px;
+}
+ */
+.third-block {
+  position: absolute;
+  left: 540px;
+  top: 1800px;
+
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 150px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
